@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="generator.js" defer></script>
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <main>
+        <p id="copied-alert">Password Copied!</p>
+        <h1 id="password">---</h1>       
+        <input type="range" min="6" max="16" step="1" id="char-amount-slider">
+        <p id="slider-value">Slider Value</p>
+        <button id="generate-btn">Generate</button>
+    </main>
+    
+</body>
+</html>
